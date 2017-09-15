@@ -46,14 +46,10 @@ project's developers might not want to merge into the project.
 Please adhere to the coding conventions used throughout a project (indentation,
 accurate comments, etc.) and any other requirements (such as test coverage).
 
-* Follow the [JavaScript](https://github.com/styleguide/javascript) styleguide
-* Follow the [NodeJS](https://github.com/felixge/node-style-guide) styleguide
+* Follow the [EffectiveGo](https://golang.org/doc/effective_go.html) styleguide
+* Follow the [Google's JavaScript styleguide](https://google.github.io/styleguide/jsguide.html)
 * Document new code based on the [Documentation Styleguide](#documentation-styleguide)
 * End files with a newline
-* Place requires in the following order:
-    * Built in Node Modules (such as `path`)
-    * Built in Mainflux Modules (such as `coreflux`)
-    * Local Modules (using relative paths)
 
 Adhering to the following process is the best way to get your work
 included in the project:
@@ -188,7 +184,5 @@ For more details, see the [MAINTAINERS](MAINTAINERS) page.
 
 ## Documentation Styleguide
 
-* Use [Markdown](https://daringfireball.net/projects/markdown)
-* Use [Doxygen](https://www.stack.nl/~dimitri/doxygen/manual/docblocks.html) documenting styleguide
-* Specifficaly, use [JavaDoc](https://en.wikipedia.org/wiki/Javadoc) flavor
-* See [Atomthreads](https://github.com/kelvinlawson/atomthreads/blob/master/kernel/atomkernel.c) project for fantastic example of code commenting
+* Use [Markdown](https://daringfireball.net/projects/markdown) for READMEs and similar
+* Use [Godoc](https://blog.golang.org/godoc-documenting-go-code) for in-code documentation
